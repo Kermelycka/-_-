@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+env/
+
+flatpak_apps.txt
+flatpak_apps_description.json
+
+.vscode/
