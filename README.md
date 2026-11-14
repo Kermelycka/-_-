@@ -1,19 +1,34 @@
-# -_-
-# Требования
-Перед началом использования проверьте наличие flatpak у вас в системе : https://flathub.org/en/setup и установленного python модуля PyQt5 : 
-```rust
-apt-get install python3-module-PyQt5
+# Easy FLATPAK manager
+Easy flatpak manager - это программа, что позволяет легко и просто использовать flatpak в системах linux.
+
+Цель проекта это помочь тем, кто только открыл для себя linux и не привык к использованию терминала.
+###### Скриншот программы
+![Скриншот программы](assets/screenshot.png)
+### Требования
+- Linux
+- установленный flatpak с [flathub](https://flathub.org/en/setup)
+- Python 3.8+
+### Как пользоваться
+Первый запуск:
+```bash
+git clone https://github.com/Kermelycka/easy-flatpak-manager.git
 ```
-# Как пользоваться
-Перейти в директорию проекта:
-```rust
-cd [путь_до_проекта]
+```bash
+cd easy-flatpak-manager
 ```
-Затем запускаем python-терминал файл :
-```rust
-python3 test.py
+```bash
+pip install -r requirements.txt
 ```
-Или python-оконный файл :
-```rust
-python3 windowTest.py
+После этого ваша система будет готова и можно запускать саму программу:
+```bash
+python3 run.py
+```
+Если вам нужно будет ещё раз запустить программу нужно перейти в папку репозитория:
+```bash
+cd easy-flatpak-manager
+```
+
+Затем запускать саму программу через python:
+```bash
+python3 run.py
 ```
